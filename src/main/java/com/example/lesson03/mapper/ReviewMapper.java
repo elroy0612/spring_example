@@ -9,5 +9,5 @@ public interface ReviewMapper {
 	
 	// input: X
 	// output: Review(단건)
-	public Review selectReviewById();
+	public Review selectReviewById(int id);
 }
